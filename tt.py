@@ -1,6 +1,4 @@
 import streamlit as st
-import turtle
-import random
 import numpy as np
 import pandas as pd
 import os
