@@ -10,29 +10,30 @@ import matplotlib.pyplot as plt
 
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image('rabbit.jpg', width=300)
+    st.image('chakyoungjun.jpg', width=260)
 with col2:
-    st.write('잡으면 후회할 인재(신수인💯, 시급3만원, 대박쩔어~~😆)')
-    'Telephone📞 : 010 xxxx xxxx'
-    'E-mail📧 : xxx1234@xxxxx.com'
-    'Address🏠 : 충남 논산시 대학로 121'
+    st.write('18683028 차경준')
+    'Telephone📞 : 010 2496 9293'
+    'E-mail📧 : ckd4411@naver.com'
+    'Address🏠 : 전라북도 전주시 완산구 효자동 따박골 5길 8'
+    'school🎓 : 건양대학교 재난안전소방학과 4학년'
 
 ''
 ''
-col = st.sidebar.columns(4)
+col = st.sidebar.columns(3)
 with col[0]:
-    st.link_button("Google(🌐)", "https://google.com")
+    st.link_button("konyang(🌐)", "https://ipsi.konyang.ac.kr/kor.do")
 with col[1]:
-    st.link_button("Naver(✅)", "https://naver.com")
+    st.link_button("BIM(✅)", "https://www.bimkorea.or.kr/qualification/archi.jsp")
 with col[2]:
-    st.link_button("Daum(🔎)", "https://daum.net")
-with col[3]:
-    st.link_button("Twitter(🐤)", "https://twitter.com")
+    st.link_button("Kais(🔎)", "https://www.kais99.org/")
 ''
 ''
-'## :orange[자기소개]'
-'#### 저는 시골에서 2남 1녀의 :red[가난한 집]의 장남으로 태어나...'
-
+'## :blue[이력]'
+'#### 건양대학교 재난안전소방학과 4학년'
+'#### 2022년 건양대학교 경진대회 참가'
+'#### 2022년 산학기술학회 논문 투고'
+'#### BIM 엔지니어 2급 자격증 보유'
 
 # fig, ax = plt.subplots()
 
